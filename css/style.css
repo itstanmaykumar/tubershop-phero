@@ -39,11 +39,63 @@
 }
 nav a{
     display: inline-block;
-    margin-left: 50px;
-    font-size: 18px;
+    margin: 0 15px;
     color: black;
 }
 nav a:hover{
     color: #00BFF2;
     transition-duration: .2s;
+}
+
+
+
+
+
+/* Hero Section Styles */
+#hero{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-box{
+    margin: 25px 0;
+    width: 45%;
+}
+.hero-box h1{
+    cursor: pointer;
+    font-size: 50px;
+}
+.hero-box h1 span{
+    color: #00BFF2;
+}
+.hero-box p{
+    margin: 25px 0;
+    color: #707070;
+}
+.hero-box a{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #00BFF2;
+    border: 1.5px solid #00BFF2;
+}
+.hero-box a i{
+    display: inline-block;
+    margin-left: 10px;
+}
+.hero-box img{
+    display: block;
+    width: 90%;
+    padding: 0 5%;
+    transition: transform 500ms ease-in-out;
+}
+.hero-box a:hover{
+    color: white;
+    background-color: #00BFF2;
+    box-shadow: 5px 5px 8px #cccccc;
+    transition: all 300ms ease-in-out;
+}
+.hero-box img:hover{
+    transform: scale(1.11);
 }
