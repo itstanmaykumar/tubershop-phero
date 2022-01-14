@@ -1,0 +1,49 @@
+/* Global Styles */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    padding: 0 10%;
+}
+
+
+
+
+
+/* Navigation Styles */
+#navbar{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.brand p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+nav a{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+    color: black;
+}
+nav a:hover{
+    color: #00BFF2;
+    transition-duration: .2s;
+}
