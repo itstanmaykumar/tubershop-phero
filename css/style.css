@@ -162,3 +162,62 @@ nav a:hover{
 .product-box:hover{
     transform: scale(1.05);
 }
+
+
+
+
+
+/* Footer Section Styles */
+footer{
+    padding: 35px 10% !important;
+    background-color: #001111;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .brand{
+    margin: 15px 0;
+}
+footer .brand img{
+    width: 50px;
+    height: 50px;
+}
+footer .brand p{
+    font-size: 40px;
+}
+.disclaimer p{
+    color: #707070;
+    margin-bottom: 20px;
+}
+.disclaimer span:hover{
+    color: #00BFF2;
+}
+.social-icon{
+    cursor: pointer;
+}
+.social-icon a{
+    background-color: #707070;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: transform 300ms ease-in-out, background-color 200ms ease-in-out;
+}
+.social-icon a i{
+    font-size: 15px;
+    color: #cccccc;
+    display: inline-block;
+    margin: 8px 5px;
+    transition: transform 300ms ease-in-out, color 300ms ease-in-out;
+}
+.social-icon a:hover{
+    background-color: white;
+    transform: scale(1.2);
+}
+.social-icon a:hover .sci{
+    color: #00BFF2;
+    transform: scale(1.1);
+}
