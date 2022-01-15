@@ -167,6 +167,60 @@ nav a:hover{
 
 
 
+/* Review Section Style */
+#review{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+#review h1{
+    margin: 25px 0;
+    font-size: 35px;
+    text-align: center;
+}
+#review-wrapper{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-box:nth-child(2n+1){
+    width: 10%;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    color: #cccccc;
+}
+.review-box:nth-child(2n)
+{
+    width: 60%;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00BFF2;
+}
+.review-box img{
+    width: 30%;
+    border-radius: 50%;
+    display: block;
+}
+.review-box h2{
+    padding: 20px 0;
+    font-size: 30px;
+}
+.review-box:nth-child(2n+1):hover{
+    color: #707070;
+}
+.review-box:nth-child(2n):hover{
+    box-shadow: 10px 10px 20px #cccccc;
+}
+
+
+
+
+
 /* Footer Section Styles */
 footer{
     padding: 35px 10% !important;
