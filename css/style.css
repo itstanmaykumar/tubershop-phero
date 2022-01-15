@@ -6,10 +6,12 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden !important;
+}
 .container{
     width: 80%;
     padding: 0 10%;
-    overflow-x: hidden;
 }
 
 
@@ -230,7 +232,6 @@ nav a:hover{
 
 /* Footer Section Styles */
 footer{
-    padding: 35px 10% !important;
     background-color: #001111;
     color: white;
     text-align: center;
@@ -239,7 +240,9 @@ footer{
     align-items: center;
 }
 footer .brand{
-    margin: 15px 0;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    
 }
 footer .brand img{
     width: 50px;
@@ -250,13 +253,14 @@ footer .brand p{
 }
 .disclaimer p{
     color: #707070;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 .disclaimer span:hover{
     color: #00BFF2;
 }
 .social-icon{
     cursor: pointer;
+    margin-bottom: 30px;
 }
 .social-icon a{
     background-color: #707070;
