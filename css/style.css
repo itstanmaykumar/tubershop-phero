@@ -41,12 +41,13 @@
 }
 nav a{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 18px;
     color: black;
+    transition: color 200ms ease-in-out
 }
+/* Navigation Animations */
 nav a:hover{
     color: #00BFF2;
-    transition-duration: .2s;
 }
 
 
@@ -55,7 +56,7 @@ nav a:hover{
 
 /* Hero Section Styles */
 #hero{
-    margin: 50px 0;
+    margin: 60px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,13 +94,14 @@ nav a:hover{
     padding: 0 5%;
     transition: transform 500ms ease-in-out;
 }
+/* Hero Section Animation */
 .hero-box a:hover{
     color: white;
     background-color: #00BFF2;
     box-shadow: 5px 5px 8px #cccccc;
 }
 .hero-box img:hover{
-    transform: scale(1.11);
+    transform: scale(1.1);
 }
 
 
@@ -159,6 +161,7 @@ nav a:hover{
     font-size: 20px;
     font-weight: 500;
 }
+/* Product Section Animation */
 .product-box:hover{
     transform: scale(1.05);
 }
@@ -177,6 +180,7 @@ nav a:hover{
     margin: 25px 0;
     font-size: 35px;
     text-align: center;
+    color: #707070;
 }
 #review-wrapper{
     margin: 30px 0;
@@ -211,6 +215,7 @@ nav a:hover{
     padding: 20px 0;
     font-size: 30px;
 }
+/* Review Section Animation */
 .review-box:nth-child(2n+1):hover{
     color: #707070;
 }
@@ -268,6 +273,7 @@ footer .brand p{
     margin: 8px 5px;
     transition: transform 300ms ease-in-out, color 300ms ease-in-out;
 }
+/* Footer Section Animation */
 .social-icon a:hover{
     background-color: white;
     transform: scale(1.2);
@@ -275,4 +281,56 @@ footer .brand p{
 .social-icon a:hover .sci{
     color: #00BFF2;
     transform: scale(1.1);
+}
+
+
+
+
+
+/* Responsive Styles For Tabs */
+@media (max-width: 990px) {
+
+    /* Hero Section Style */
+    .hero-box h1{
+        font-size: 35px;
+    }
+    .hero-box p{
+        font-size: 12px;
+    }
+
+    /* Product Section Style */
+    #products-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+}
+
+
+
+
+
+/* Responsive Styles For Mobiles */
+@media (max-width: 700px) {
+
+    /* Navigation Bar Style */
+    #navbar{
+        flex-direction: column;
+    }
+    nav{
+        margin-top: 20px;
+    }
+
+    /* Hero Section Style */
+    .hero-box h1{
+        font-size: 40px;
+    }
+    .hero-box p{
+        font-size: 12px;
+    }
+
+    /* Product Section Style */
+    #products-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
 }
