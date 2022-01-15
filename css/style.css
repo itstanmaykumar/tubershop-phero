@@ -317,10 +317,6 @@ footer .brand p{
 
 /* Responsive Styles For Mobiles */
 @media (max-width: 700px) {
-    .container{
-        width: 90%;
-        padding: 0 5%;
-    }
 
     /* Navigation Bar Style */
     #navbar{
